@@ -1,8 +1,5 @@
 import React from "react";
-import {
-  FaFacebook,
-  FaTiktok,
-} from "react-icons/fa";
+import { FaFacebook, FaTiktok } from "react-icons/fa";
 import { MdEmail, MdLocationOn, MdPhone } from "react-icons/md";
 
 const Footer = () => {
@@ -56,13 +53,17 @@ const Footer = () => {
             <span className="inline-flex items-center justify-center rounded-full bg-green-100 p-2">
               <MdPhone className="text-green-600 w-6 h-6" />
             </span>
-            <span className="text-lg font-semibold text-white">0901 234 567</span>
+            <span className="text-lg font-semibold text-white">
+              0901 234 567
+            </span>
           </div>
           <div className="flex items-center gap-3">
             <span className="inline-flex items-center justify-center rounded-full bg-blue-100 p-2">
               <MdEmail className="text-blue-600 w-6 h-6" />
             </span>
-            <span className="text-lg font-semibold text-white">tranmaxxxx@gmail.com</span>
+            <span className="text-lg font-semibold text-white">
+              tranmaxxxx@gmail.com
+            </span>
           </div>
           <div className="flex items-center gap-3">
             <span className="inline-flex items-center justify-center rounded-full bg-red-100 p-2">

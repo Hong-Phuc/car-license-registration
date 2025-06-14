@@ -82,7 +82,7 @@ const RegisterForm = () => {
       id="register-form"
       className="w-full max-w-2xl bg-white rounded-2xl shadow-xl p-8 mt-12 mb-16"
     >
-      <h2 className="text-3xl font-extrabold text-blue-900 mb-6 text-center">
+      <h2 className="text-3xl font-extrabold text-[#670D2F] mb-6 text-center">
         Đăng ký học lái xe
       </h2>
       {success && (
@@ -171,7 +171,7 @@ const RegisterForm = () => {
         {/* Nút gửi */}
         <button
           type="submit"
-          className="w-full bg-gradient-to-r from-indigo-500 to-blue-500 text-white font-bold py-3 text-lg rounded-lg mt-2 shadow-lg hover:from-indigo-600 hover:to-blue-600 transition transform hover:scale-105 cursor-pointer"
+          className="bg-gradient-to-r from-[#A53860] to-[#EF88AD] text-white font-bold py-3 px-10 rounded-full shadow-lg transition hover:from-[#3A0519] hover:to-[#A53860] hover:scale-105 cursor-pointer text-lg"
         >
           Gửi đăng ký
         </button>
